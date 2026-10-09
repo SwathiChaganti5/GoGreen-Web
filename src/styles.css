@@ -64,6 +64,5 @@
 /* Cinematic hero move: a slow push-in with a restrained orbital pan */
 .hero-media img{animation:heroCinematic 24s cubic-bezier(.18,.62,.26,1) both;transform-origin:center center;will-change:transform}
 @keyframes heroCinematic{0%{transform:scale(1.015) translate3d(0,0,0) rotate(0)}45%{transform:scale(1.075) translate3d(-.25%,-.1%,0) rotate(.25deg)}100%{transform:scale(1.14) translate3d(-.65%,-.35%,0) rotate(-.55deg)}}
-@media(max-width:720px){.hero-media img{animation-name:heroCinematicMobile;animation-duration:20s}}
-@keyframes heroCinematicMobile{0%{transform:scale(1.01) translate3d(0,0,0)}55%{transform:scale(1.05) translate3d(-.15%,-.08%,0)}100%{transform:scale(1.09) translate3d(-.3%,-.18%,0)}}
 @media(prefers-reduced-motion:reduce){.hero-media img{animation:none;transform:none;will-change:auto}}
+.about-stamp small{font-size:7px;letter-spacing:1px;white-space:nowrap}
